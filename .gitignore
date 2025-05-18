@@ -1,0 +1,19 @@
+# Ignore sensitive files and system files
+*.log
+*.env
+.DS_Store
+Thumbs.db
+
+# Ignore vendor and dependency directories (if any)
+vendor/
+node_modules/
+
+# Ignore IDE/editor settings
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Ignore OS generated files
+ehthumbs.db
+Icon?
