@@ -27,10 +27,6 @@ The following files are globally used:
     include("../connection.php");
     include("../functions.php");
 
-    // Check if the user is already logged in
-    // If is logged in, redirects them to the home page
-    check_logout($con);
-
     // POST means you are sending data to the server
     // Basically, this is recommended for login and signup forms
     // This filters out if going to this page came from pressing enter, or just from link
