@@ -6,6 +6,7 @@ To prevent lengthy coding, here are some php website templates to use. Just copy
 ## Templates List
 
 - Simple user login and signup
+- Login and signup system with email verification
 
 ## Requirements
 
@@ -21,6 +22,10 @@ To prevent lengthy coding, here are some php website templates to use. Just copy
 5. **Go to connection.php** within the folder you have downloaded and **change 'db-php-web-templates'** within the $dbname variable **to the name you choice for your database**.
 6. For more specific instructions, please **refer to the 'instructions.md'** file inside the folder you have downloaded, since the next steps are very specific.
 
+
+## Notes
+1. Templates are **not designed to work with each other**, meaning "simple-user-log-system" is not designed to work with "simple-news-feed" or "simple navigation".
+2. **One database is used by all, but each templates use different tables**. You can refer to those tables in the 'instructions.md' of each folders.
 
 ## Made by
 Emmanuel T. Bawalan
